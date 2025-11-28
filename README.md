@@ -22,7 +22,7 @@ Fonctionnalités principales :
 
 ## 1. Arborescence du projet
 
-```text
+
 orchestrator/
 ├── c_lib
 │   ├── libvirt_helper.c
