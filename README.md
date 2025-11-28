@@ -20,21 +20,22 @@ Fonctionnalités principales :
 
 ---
 
-## Architecture du projet
+## 1. Arborescence du projet
 
-```
-
+```text
 orchestrator/
 ├── c_lib
 │   ├── libvirt_helper.c
 │   ├── libvirt_helper.h
+│   ├── libvirt_helper.o
 │   ├── libvirt_helper.so
 │   └── Makefile
 └── python_interface
-├── gui_orchestrator.py
-├── known_vms.txt
-├── libvirt_helper.so
-├── orcherstrator.py
+    ├── gui_orchestrator.py
+    ├── known_vms.txt
+    ├── libvirt_helper.so
+    ├── orcherstrator.py
+    └── test/
 
 ````
 
